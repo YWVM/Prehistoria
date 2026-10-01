@@ -1,0 +1,64 @@
+mkdir -p /mnt/user-data/outputs && cat > /mnt/user-data/outputs/Historia_Prehistoria_y_Edad_Antigua.html <<'EOF'
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prehistoria y Edad Antigua</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1d2433;--mu:#5b6478;--ac:#2f5496;--ln:#d9deea;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171f;--card:#1e2330;--tx:#e8ebf3;--mu:#a3acc2;--ac:#8fb0ff;--ln:#323a4f}}
+:root[data-theme="dark"]{--bg:#14171f;--card:#1e2330;--tx:#e8ebf3;--mu:#a3acc2;--ac:#8fb0ff;--ln:#323a4f}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,Arial,sans-serif;padding:16px;max-width:760px;margin:auto}
+h1{font-size:22px;margin:8px 0 4px;color:var(--ac)}p.s{color:var(--mu);margin:0 0 16px;font-size:14px}
+details{background:var(--card);border:1px solid var(--ln);border-radius:12px;margin:10px 0}
+summary{cursor:pointer;padding:12px 14px;list-style:none;font-weight:600}
+summary::-webkit-details-marker{display:none}
+details.f>summary{font-size:18px}
+details.i{margin:8px 12px;box-shadow:none}
+details.i>summary{font-size:15px}
+summary small{display:block;font-weight:400;color:var(--mu);font-size:13px}
+.b{padding:0 14px 12px;font-size:15px}.b ul{margin:6px 0;padding-left:20px}.b p{margin:8px 0}
+.b b{color:var(--ac)}
+</style></head><body>
+<h1>Prehistoria y Edad Antigua</h1>
+<p class="s">Toca una carpeta, luego un tema.</p>
+<div id="app"></div>
+<script>
+const D={
+"📁 1. Prehistoria":`Paleolítico inferior|2.500.000–120.000 a.C. (2.380.000 años)|"Piedra antigua": primera y más larga etapa. Vivían Homo habilis, erectus y antecessor (Atapuerca).|Cazadores-recolectores nómadas en bandas pequeñas•Bifaces y cantos tallados•Dominio del fuego•Viven en cuevas y campamentos|Aparecen los neandertales y técnicas de talla más elaboradas.
+Paleolítico medio|120.000–30.000 a.C. (90.000 años)|Etapa de los neandertales, adaptados a la glaciación.|Industria musteriense (lascas, puntas)•Caza organizada de mamuts y bisontes•Primeros enterramientos: señal de creencias•Cuidado de enfermos|Desaparecen los neandertales y queda solo el Homo sapiens.
+Paleolítico superior|30.000–9.000 a.C. (21.000 años)|Vive el Homo sapiens, con gran creatividad.|Herramientas de hueso y asta: agujas, arpones•Arte rupestre (Altamira) y venus•Arte de sentido mágico-religioso•Fin de la glaciación hacia el 10.000 a.C.|El cambio de clima lleva a la agricultura.
+Neolítico|9.000–3.500 a.C. en Oriente Próximo (península: 6.000–3.500)|"Piedra nueva" (pulida). Revolución neolítica: se pasa de recolectar a producir alimentos.|Agricultura y ganadería•Sedentarismo y poblados (Jericó)•Cerámica y tejido•Excedentes, comercio y división del trabajo•Megalitos al final|Empieza antes en Oriente Próximo (Creciente Fértil) y se extiende despacio hacia Europa.
+Edad de los Metales|Desde 4.000 a.C. en Oriente Próximo (península: 3.500–500 a.C.)|Se funden metales: cobre, bronce (cobre + estaño) y hierro.|Artesanos metalúrgicos•Comercio a larga distancia•Desigualdad: jefes y guerreros•Poblados fortificados•Rueda y arado|La Prehistoria acaba con la escritura (≈3.500 a.C. en Oriente Próximo, ≈500 a.C. en la península).`,
+"📁 2. Mesopotamia":`General|3.300–63 a.C.|"Tierra entre ríos" (Tigris y Éufrates, actual Irak), parte del Creciente Fértil.|Riego con canales por las crecidas irregulares•Sin fronteras naturales: invasiones continuas•Ciudades-estado; el rey representa a los dioses•Escritura cuneiforme y zigurats•Politeísmo•Rueda, sistema sexagesimal y calendario lunar|Orden: Sumeria, acadio, babilónico, asirio, neobabilónico, persa, seléucida.
+Sumeria|3.300–2.300 a.C. (1.000 años)|Primeras ciudades-estado: Ur, Uruk, Lagash, Kish.|Reyes rivales (ensi o lugal)•Inventan la escritura cuneiforme•Zigurat; el templo es el centro económico•Agricultura de regadío|Las conquista Sargón de Acad.
+Imperio acadio|2.300–2.200 a.C. (100 años)|Primer imperio, fundado por Sargón de Acad.|Capital: Acad•Ejército profesional•Del Golfo Pérsico al Mediterráneo|Revueltas e invasión de los gutis.
+Imperio babilónico|1.800–1.300 a.C. (500 años)|Capital Babilonia; su rey es Hammurabi.|Código de Hammurabi: unas 282 leyes, ley del Talión•Administración y obras de riego•Matemáticas y astronomía|Los hititas saquean Babilonia (≈1.595) y luego dominan los casitas.
+Imperio asirio|1.300–600 a.C. (700 años)|Imperio militar; capitales Asur y Nínive.|Armas de hierro, carros y máquinas de asedio•Terror y deportaciones•Biblioteca de Asurbanipal|Los pueblos sometidos se rebelan; babilonios y medos destruyen Nínive (612).
+Imperio neobabilónico|612–539 a.C. (73 años)|Renace Babilonia con Nabucodonosor II.|Puerta de Ishtar y zigurat Etemenanki•Jardines Colgantes (según la tradición)•Astronomía•Toma Jerusalén|Ciro II de Persia conquista Babilonia (539).
+Imperio persa|539–331 a.C. (208 años)|Imperio de Egipto a la India; reyes Ciro II y Darío I.|Satrapías (provincias)•Camino Real•Moneda e impuestos•Tolerancia religiosa; zoroastrismo|Alejandro Magno vence a Darío III en Gaugamela (331).
+Helenístico seléucida|312–63 a.C. (249 años)|Reino de Seleuco I, tras morir Alejandro (323).|Cultura helenística: griega + local•Ciudades nuevas como Seleucia•El griego, lengua de administración|Los partos toman Mesopotamia y Roma el resto (63 a.C., Pompeyo).`,
+"📁 3. Egipto":`General|3.100–30 a.C.|"Regalo del Nilo", dividido en Alto y Bajo Egipto.|Crecidas con limo fértil; los desiertos lo protegen•Faraón: rey y dios, poder absoluto•Sociedad piramidal•Politeísmo, vida tras la muerte, momificación•Jeroglíficos y papiro•Pirámides y templos•Calendario de 365 días|Orden: tinita, antiguo, medio, nuevo, Baja Época.
+Época tinita|3.100–2.600 a.C. (500 años)|Narmer (Menes) une el Alto y el Bajo Egipto.|Nace la escritura jeroglífica•Capital: Tinis y luego Menfis•Tumbas reales|El Estado se fortalece y llega el Imperio antiguo.
+Imperio antiguo|2.600–2.300 a.C. (300 años)|Época de las pirámides; capital Menfis.|Pirámide escalonada de Zóser (Imhotep) y las de Guiza: Keops, Kefrén y Micerinos•Faraón-dios•Visires y funcionarios|Nobles poderosos, faraón débil y malas crecidas: crisis y división.
+Imperio medio|2.000–1.800 a.C. (200 años)|Reunificación del país; capital Tebas.|Canales y obras•Expansión a Nubia y comercio•Literatura y arte refinados|Los hicsos invaden el delta.
+Imperio nuevo|1.600–1.100 a.C. (500 años)|Máximo poder, con faraones guerreros; capital Tebas.|Hatshepsut, Tutmosis III, Akenatón (dios Atón), Tutankamón y Ramsés II•Conquistas hasta Siria•Karnak, Luxor, Abu Simbel•Valle de los Reyes|Invasión de los pueblos del mar y crisis interna.
+Baja Época|670–30 a.C. (640 años)|Dominio extranjero frecuente.|Asirios (671), dinastía saíta, persas (525)•Alejandro (332) y los Ptolomeos: Alejandría•Cleopatra VII, última reina|Roma la convierte en provincia (30 a.C.).`,
+"📁 4. Península ibérica":`Prehistoria|1.200.000–500 a.C.|Mismas etapas que en Europa, pero las novedades llegan más tarde que a Oriente Próximo.|Atapuerca (Burgos): restos de más de un millón de años•Altamira: arte del Paleolítico superior•Neolítico hacia 6.000 a.C., por el Mediterráneo, con cerámica•Los Millares y El Argar (Almería): Cobre y Bronce•Dólmenes de Antequera|Termina con la llegada de pueblos que ya escribían.
+Pueblos prerromanos|Siglos VIII–II a.C.|No hubo "imperio ibérico": los íberos eran muchos pueblos independientes.|Tartessos (Guadalquivir): minería y comercio•Íberos (costa): ciudades fortificadas, escritura propia, Dama de Elche•Celtas (interior, norte y oeste): castros, ganadería, hierro•Celtíberos: mezcla en la meseta|Roma los conquista.
+Colonizaciones|Siglos XI–III a.C.|Fenicios, griegos y cartagineses buscan metales y comercio.|Fenicios: Gadir (Cádiz) hacia el 1.100; alfabeto y torno•Griegos: Emporion y Rhode (s. VI); olivo y vid•Cartagineses: Cartago Nova (227)•Choque con Roma: Guerras Púnicas|Roma vence a Cartago.
+Hispania romana|218 a.C.–476 d.C.|Romanización: adoptar la lengua, las leyes y las costumbres de Roma.|Desembarco en Ampurias (218); conquista de casi 200 años (Numancia), hasta el 19 a.C.•Latín y derecho romano•Ciudades: Mérida, Tarragona, Itálica•Calzadas, puentes y acueducto de Segovia•Cristianismo•Séneca, Trajano y Adriano|Cae Roma en el 476; desde el 409 entran suevos, vándalos y alanos.`};
+const E=t=>t.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+let h='';
+for(const [f,txt] of Object.entries(D)){
+ h+=`<details class="f"><summary>${f}</summary>`;
+ for(const l of txt.split('\n')){
+  const [t,d,df,bs,fin]=l.split('|');
+  h+=`<details class="i"><summary>📄 ${E(t)}<small>${E(d)}</small></summary><div class="b"><p><b>Definición:</b> ${E(df)}</p><ul>${bs.split('•').map(x=>`<li>${E(x)}</li>`).join('')}</ul><p><b>Cómo termina:</b> ${E(fin)}</p></div></details>`;
+ }
+ h+='</details>';
+}
+document.getElementById('app').innerHTML=h;
+</script></body></html>
+EOF
+echo ok
